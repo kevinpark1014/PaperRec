@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.font_big{
+    font-family: 'yg-jalnan', sans-serif;
+    font-weight: 200;
+    color: #007bff;
+}
+
+.font_email{
+    font-family: 'NanumSquareRound', sans-serif;
+    margin-right: 270px;
+    margin-top: 50px;
+}
+.font_password{
+    font-family: 'NanumSquareRound', sans-serif;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.login-container {
+    width: 500px;
+    height: 530px;
+    margin: 0 0;
+    margin-left: auto; /* 중앙 정렬 */
+    padding: 20px;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .sign-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 100vh; /* 뷰포트의 높이를 기준으로 사용 */
+    width: 350px;
+    height: 530px;
+    margin: 0 0;
+    margin-right: auto; /* 중앙 정렬 */
+    padding: 20px;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .leftbox {
+   margin-right: 220px;
+   margin-top: 30px;
+  }
+  .summary {
+    font-size: 20px;
+    color: #a7a7a7;
+    margin-bottom: 40px;
+  }
+  /* 입력란 */
+  .login-input {
+    width: calc(100% - 170px); /* 오른쪽에 패딩이 있으므로 너비 조정 */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* 로그인 버튼 */
+  .login-button {
+    width: calc(100% - 250px); /* 오른쪽에 패딩이 있으므로 너비 조정 */
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .sign-button {
+    width: calc(100% - 200px); /* 오른쪽에 패딩이 있으므로 너비 조정 */
+    padding: 10px;
+    margin-top: 60px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+  }

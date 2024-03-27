@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  .font_logo{
+    font-family: 'yg-jalnan', sans-serif;
+    font-weight: 200;
+    color: #007bff;
+    text-decoration: none; /* 밑줄 제거 */
+    display: inline-block; /* 인라인 블록 요소로 변경하여 여백 지정 가능 */
+    padding: 10px 15px; /* 위아래 왼쪽오른쪽 여백 설정 */
+    position: relative; /* 요소를 상대적으로 위치시킵니다. */
+    top: -25px; /* 위쪽으로 5px 이동 */
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 로고와 버튼 사이의 간격을 최대한 벌립니다. */
+    align-items: center; /* 로고와 버튼을 수직으로 정렬합니다. */
+    top: 0; /* 화면 맨 위에 위치 */
+    left: 0; /* 왼쪽에 위치 */
+    width: 100%; /* 화면 전체 너비를 차지 */
+    background-color: #333; /* 배경색 지정 */
+    height: 80px;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    
+}
+  .signinup-button {
+    font-family: 'yg-jalnan', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px; /* 각 버튼 사이의 간격을 조절할 수 있습니다. */
+    margin-left: auto; 
+    position: relative; /* 요소를 상대적으로 위치시킵니다. */
+    top: -20px; /* 위쪽으로 5px 이동 */
+  }
+  .logout-button {
+    font-family: 'yg-jalnan', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px; /* 각 버튼 사이의 간격을 조절할 수 있습니다. */
+    margin-left: auto; 
+    position: relative; /* 요소를 상대적으로 위치시킵니다. */
+    top: -20px; /* 위쪽으로 5px 이동 */
+  }
+
+  .navbar ul {
+    list-style-type: none; /* 목록 기호 제거 */
+    margin: 0.5%;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline; /* 가로로 배치 */
+  }
+  
+  .navbar ul li a {
+    display: inline-block; /* 인라인 블록 요소로 변경하여 여백 지정 가능 */
+    padding: 10px 15px; /* 위아래 왼쪽오른쪽 여백 설정 */
+    color: #fff; /* 글자색 지정 */
+    text-decoration: none; /* 밑줄 제거 */
+  } 
+
+  /* 마우스 호버시 배경색 변경 */
+  .navbar ul li a:hover {
+    background-color: #555; 
+  }
+
